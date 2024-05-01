@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div class="container">
+  <div class="nobreak">
+    <p class="left_margin" data-eqcss-2-0-parent="" data-eqcss-5-0-parent="">Условие:</p>
+    <p class="left_margin" data-eqcss-2-0-parent="" data-eqcss-5-0-parent="">На участке цепи, изображенном на рисунке,
+      сопротивление каждого из резисторов равно R = 1 Ом. Чему равно полное сопротивление участка при замкнутом
+      ключе К?</p>
+    <p class="left_margin" data-eqcss-2-0-parent="" data-eqcss-5-0-parent="">Решение:</p>
+    <p class="left_margin" data-eqcss-2-0-parent="" data-eqcss-5-0-parent="">После замыкания ключа клеммы окажутся
+      закороченными. Полное сопротивление участка при замкнутом ключе равно нулю</p>
+  </div>
+</div>
+</body>
+</html>
