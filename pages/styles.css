@@ -1,10 +1,10 @@
 body {
-  margin: 40px auto;
+  margin: 60px auto;
   max-width: 800px;
   line-height: 1.6;
   font-size: 18px;
   color: #303030;
-  padding: 0 10px
+  padding: 0 10px;
 }
 
 h1, h2, h3 {
@@ -12,7 +12,13 @@ h1, h2, h3 {
 }
 
 hr {
-  color: #3f3f3f
+  height: 2px;
+  background-color: #b6b5b5;
+  border: none;
+}
+
+ul {
+  line-height: 1.1;
 }
 
 li::marker {
@@ -23,29 +29,136 @@ li::marker {
   color: #575757;
 }
 
-a {
+.author__link {
   text-decoration: none;
   outline: none;
   padding: 2px 1px 0;
 }
 
-a:link {
+.author__link:link {
   color: #2c2c2c;
 }
 
-a:visited {
+.author__link:visited {
   color: #1d1d1d;
 }
 
-a:focus {
-  background: #e5ebf8;
+.author__link:focus {
+  color: #302f2f;
 }
 
-a:hover {
-  background: #e5ebf8;
+.author__link:hover {
+  color: #929292;
 }
 
-a:active {
+.author__link:active {
   background: white;
-  color: #1d509c;
+  color: #7e7e7e;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
+  grid-gap: 40px;
+  padding: 30px 0;
+}
+
+.cards {
+  grid-column: 2 / span 12;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(auto, 60px));
+  grid-gap: 20px;
+}
+
+.card {
+  border-radius: 20px;
+  grid-column-end: span 4;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card__link {
+  text-decoration: none;
+  outline: none;
+}
+
+.card__link:link {
+  color: #1d1d1d;
+}
+
+.card__link:visited {
+  color: #1d1d1d;
+}
+
+.card__link:focus {
+  color: #242424;
+}
+
+.card__link:hover {
+  color: #444444;
+}
+
+
+.card__content {
+  padding: 20px;
+}
+
+.card__title {
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.card__title_no_author {
+  font-weight: bolder;
+  margin: 5px;
+}
+
+.card__info {
+  display: flex;
+  align-self: end;
+  align-items: center;
+}
+
+.card__bottom {
+  margin-left: auto;
+  padding: 5px 20px;
+  background-color: #f8f8f8;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    grid-column-end: span 6;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  main {
+    grid-gap: 20px;
+  }
+  .card {
+    grid-column-end: span 12;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main {
+    grid-template-columns: 10px repeat(6, 1fr) 10px;
+    grid-gap: 10px;
+  }
+  .cards {
+    grid-column: 2 / span 6;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+  }
+  .card {
+    grid-column-end: span 6;
+  }
 }
