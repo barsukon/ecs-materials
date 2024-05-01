@@ -1,0 +1,19 @@
+# Ignore build directories.
+/build
+/dist
+
+# Ignore composer vendor directory
+/vendor
+
+# Editor configurations
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# Misc
+.DS_Store
+._*
+ehthumbs.db
+Thumbs.db
