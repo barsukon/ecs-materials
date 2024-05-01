@@ -1,0 +1,51 @@
+body {
+  margin: 40px auto;
+  max-width: 800px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #303030;
+  padding: 0 10px
+}
+
+h1, h2, h3 {
+  line-height:1.2
+}
+
+hr {
+  color: #3f3f3f
+}
+
+li::marker {
+  color: #636363;
+}
+
+.authors {
+  color: #575757;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #2c2c2c;
+}
+
+a:visited {
+  color: #1d1d1d;
+}
+
+a:focus {
+  background: #e5ebf8;
+}
+
+a:hover {
+  background: #e5ebf8;
+}
+
+a:active {
+  background: white;
+  color: #1d509c;
+}
