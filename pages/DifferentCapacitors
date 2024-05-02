@@ -1,0 +1,7 @@
+<h1 style="text-align: center;">Катушка индуктивности</h1>
+<p>&nbsp;</p>
+<h3><iframe src="https://ecs.maxbarsukov.ru/?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAQBYKLIKBTAWjDACgA3cDQkYnsbiGwoo4EHjpI606AlYAnLj2FDsykXTSRWAY1Xr9vHjPiQMpC5avEossIUiUyxBCXP48tuGwDuSo4Z8UBz+YMQiAvwonnQQEjTStnKKkeDRhmDpmnCsfqlhIthq4OHBekVRnhUlGl7wENh2CGAIKCik2C54lDh1bJyp0Z6DKNSx4pKiMnJ5gkOG89rlxW3U1Yt19UKyBMJm2AgYh3iuxrCQbClzows32doA9iAihGMglJBk4NAoUrBSz0B2FYT3Ir1EHy+f0gSAgInIwKeYDo4OwIAAHnhkSwErBMkgInUpKwgA" width="800" height="550"></iframe>Конденсатор в цепи переменного тока выступает в роли сопростивления, в отличии от цепи постоянного тока (там ток протекать не будет).</h3>
+<h3>Сопротивление, которое генерируется конденсатором называется&nbsp;<span style="text-decoration: underline;"><em>емкостным сопротивлением.</em></span> Считается оно по формуле:</h3>
+<h3><img src="https://svoy-vetrogenerator.ru/wp-content/uploads/5/6/b/56b28a0282829a47d100b78326cee73c.gif" alt="Picture background" width="83" height="43" />&nbsp;, где&nbsp;<strong>&omega; - циклическая частота переменного тока, C - емкость конденсатор, Xc - емкостное сопротивление.</strong></h3>
+<p><strong>На схеме продемонстрированы 3 электрические цепи переменного тока с различной емкостью конденсаторов. На осциллографах можно посмотреть графики силы тока электрической цепи в зависимости от емкости конденсатора.</strong></p>
+<p>&nbsp;</p>
