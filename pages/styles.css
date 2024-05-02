@@ -56,6 +56,28 @@ li::marker {
   color: #7e7e7e;
 }
 
+.back_link:link {
+  color: #336797;
+  text-decoration: none;
+}
+
+.back_link:visited {
+  color: #234f77;
+}
+
+.back_link:focus {
+  color: #467097;
+}
+
+.back_link:hover {
+  color: #5680a7;
+}
+
+.back_link:active {
+  background: white;
+  color: #5c8bb8;
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
