@@ -4,7 +4,18 @@ Physics teaching materials based on ECS.
 
 ## Getting Started
 
-Here are some pages of physics reference and teaching information, illustrated using the ECS project
+You can try the hosted version of the application:
+
+- https://ecs.maxbarsukov.ru/
+
+Here are some pages of physics reference and teaching information, illustrated using the ECS project:
+
+- Electronic Circuit Simulator;
+- Theoretical Materials;
+- Circuit elements description;
+- Some ReshuEGE tasks illustrated;
+- About ECS;
+- TODO List.
 
 ## Contributing <a name="contributing"></a>
 
